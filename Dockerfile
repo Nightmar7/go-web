@@ -1,4 +1,4 @@
 FROM centos:7
 COPY hello /root/server
-EXPOSE8080
+EXPOSE 8080
 CMD /root/server
